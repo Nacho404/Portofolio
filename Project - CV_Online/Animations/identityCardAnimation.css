@@ -1,0 +1,118 @@
+
+
+/* Animation my name */
+@keyframes moveMyName {
+    from {transform: translateY(-250px);
+        opacity: 0;
+    }
+    to {transform: translateY(initial);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes moveMyName {
+    from {transform: translateY(-250px);
+        opacity: 0;
+    }
+    to {transform: translateY(initial);
+        opacity: 1;
+    }
+}
+
+
+/* for javascript */
+.cv-name-h1-animation {
+    animation: moveMyName 2s !important;
+    -webkit-animation: moveMyName 2s !important;
+}
+
+/* for javascript */
+
+
+
+/* Animation my actual role */
+
+@keyframes moveMyRole {
+    from {transform: translateY(250px);
+        opacity: 0;
+    }
+    to {transform: translateY(initial);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes moveMyRole {
+    from {transform: translateY(250px);
+        opacity: 0;
+    }
+    to {transform: translateY(initial);
+        opacity: 1;
+    }
+}
+
+/* for javascript */
+.cv-name-h3-animation {
+    position: relative;
+    animation: moveMyRole ;
+    animation-duration: 2s;
+    -webkit-animation: moveMyRole ;
+    -webkit-animation-duration: 2s;
+}
+
+/* for javascript */
+
+
+/* Animation Contact detailk */
+
+@keyframes moveMyContactDetails {
+    from {transform: translateX(350px);}
+    to {transform: translateX(initial);}
+}
+
+@-webkit-keyframes moveMyContactDetails {
+    from {transform: translateX(350px);}
+    to {transform: translateX(initial);}
+}
+
+
+/* for javascript */
+.contact-details-paragraphs-animation {
+    position: relative;
+    animation: moveMyContactDetails ;
+    animation-duration: 1s;
+    -webkit-animation: moveMyContactDetails ;
+    -webkit-animation-duration: 1s;
+}
+/* for javascript */
+
+
+
+/* Animation About me */
+
+@keyframes animateAboutMe {
+    from {transform: translateY(250px);
+        opacity: 0;
+    }
+    to {transform: translateY(initial);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes animateAboutMe {
+    from {transform: translateY(250px);
+        opacity: 0;
+    }
+    to {transform: translateY(initial);
+        opacity: 1;
+    }
+}
+
+
+/* for javascript */
+.about-me-photo-description-animation {
+    animation: animateAboutMe;
+    animation-duration: 2s;
+    -webkit-animation: animateAboutMe ;
+    -webkit-animation-duration: 2s;
+}
+/* for javascript */

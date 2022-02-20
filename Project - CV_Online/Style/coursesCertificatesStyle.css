@@ -1,0 +1,34 @@
+#courses-certificates {
+    border-radius: 20px 20px;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgba(255,255,255, 0.9);
+    box-shadow: 5px 5px 15px#4a4a4b;
+}
+
+
+#intro-courses-certificates, #description-courses-certificates {
+    margin: 10px;
+    font-weight: lighter;
+}
+
+
+#courses-certificates h2 {
+    margin-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 51, 204);
+}
+
+
+#container-courses-certificates {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sectioned-courses-certificates {
+    width: auto;
+    height: 2px;
+    background: linear-gradient(0.25turn, #97b1ff, #0033cc, #97b1ff);
+    border-radius: 20px;
+}
+

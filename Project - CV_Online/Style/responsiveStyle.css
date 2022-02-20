@@ -1,0 +1,183 @@
+/* Small devices (tablets, 768px and up)  for screen <768px*/
+
+@media (max-width: 400px) { 
+    .container-projects-github img {
+        
+        min-width: 300px !important;
+        min-height: 140px !important;
+
+        width: 300px !important;
+        height: 140px !important;
+    }
+}
+
+
+@media (max-width: 768px) { 
+
+
+    #professional-experience #container, #education #container-education, #container-courses-certificates {
+        display: block;
+        text-align: center;
+    }
+
+    #professional-experience #container #description-job p:last-child {
+        justify-content: center;
+    }
+
+
+    #description-education #add-class-paragraph, #description-education span, #education img, #about-me img {
+        display: none;
+    }
+
+    #paragraph-mobile-screen {
+        display:block;
+    }
+
+    .container-projects-github img {
+        min-width: 400px;
+        min-height: 187px;
+
+        width: 550px;
+        height: 257px;
+    }
+
+}
+
+/* for screen >768px */
+@media (min-width: 768px){
+    #paragraph-mobile-screen {
+        display:none;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) for screen between 768px and 992px*/
+@media (min-width: 768px) and (max-width: 992px) { 
+
+    #about-me #container-description img {
+        width: 300px;
+        height: 200px;
+    }
+
+
+}
+
+/* for screen between 992px and 1200 */
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+    #cv-introduction, #professional-experience, #education, #courses-certificates, .my-projects-github {
+        margin-right:10px !important;
+    }
+    
+
+    /* Identity card */
+    #cv-name, #contact-details, #identity-card {
+        display: block;
+        text-align: center;
+    }
+
+    #sectioned-card {
+        height: 2px;
+        width: auto;
+        background: linear-gradient(0.25turn, #97b1ff, #0033cc, #97b1ff);
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 20px;
+    }
+
+    #about-me #container-description img {
+        width: 300px;
+        height: 200px;
+    }
+
+    /* Professional experience */
+
+    #professional-experience img, #courses-certificates img {
+        width: 200px;
+        height: 81px;
+    }
+
+    /* education */
+    .over-flow-yes {
+        height: 140px;
+    }
+
+    #education img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .dropdown-menu-btn {
+        display: none;
+    }
+
+}
+
+/* Large devices (large desktops, 1200px and up) for screen >1200px */
+@media (min-width: 1200px) { 
+    .dropdown-menu-btn {
+        display: none;
+    }
+}
+
+
+
+/* for screen <992px */
+
+@media (max-width: 992px) { 
+
+    #cv-introduction, #professional-experience, #education, #courses-certificates, .my-projects-github {
+        margin: 0px 25px 10px 25px !important;
+    }
+    
+
+    /* Identity card */
+    #cv-name, #contact-details, #identity-card {
+        display: block;
+        text-align: center;
+    }
+
+    #sectioned-card {
+        height: 2px;
+        width: auto;
+        background: linear-gradient(0.25turn, #97b1ff, #0033cc, #97b1ff);
+        margin-left: 30px;
+        margin-right: 30px;
+        border-radius: 20px;
+    }
+
+    /* Navigation Menu */
+
+    #navigation-menu {
+        background-color: rgb(255,255,255);
+        border-radius: 0px;
+        margin: 0px;
+        position: sticky;
+        top:0px;
+        width: 100%;
+        z-index: 99999;
+    }
+
+    #navigation-menu ul {
+        margin: 0px;
+    }
+
+    #navigation-menu ul li {
+        text-align: center;
+    }
+
+    #navigation-menu ul .line-of-options {
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    #navigation-menu ul {
+        display: none;
+    }
+
+
+}
+
+
+
+
+

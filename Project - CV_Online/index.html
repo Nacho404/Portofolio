@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/identityCardStyle.css">
+    <link rel="stylesheet" href="Style/aboutMeStyle.css">
+    <link rel="stylesheet" href="Style/professionalExperienceStyle.css">
+    <link rel="stylesheet" href="Style/educationStyle.css">
+    <link rel="stylesheet" href="Style/coursesCertificatesStyle.css">
+    <link rel="stylesheet" href="Style/myProjectGithubStyle.css">
+    <link rel="stylesheet" href="Animations/identityCardAnimation.css">
+
+    <link rel="stylesheet" href="Style/responsiveStyle.css">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <script src="index.js" defer></script>
+    
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Style/Images/htmlLogo.jpg">
+    <title>MIHAI-SORIN NETEJORU</title>
+</head>
+<body>
+    
+    <!-- Navigation menu -->
+    <div id="navigation-menu">
+        <div class="dropdown-menu-btn">
+            <div onclick="expandMyMenu()">
+                <section></section>
+                <section></section>
+                <section></section>
+            </div>
+            <img src="Style/Images/dropdownMenuLogo.jpg" alt="Dropdown menu logo">
+        </div>
+
+        <ul>
+            <li id="go-to-introduction" onclick="goToElement('Introduction')">Introduction</li>
+            <li class="line-of-options"></li>
+            <li id="go-to-professional-experience" onclick="goToElement('Professional experience')">Professional experience</li>
+            <li class="line-of-options"></li>
+            <li id="go-to-education" onclick="goToElement('Education')">Education</li>
+            <li class="line-of-options"></li>
+            <li id="go-to-courses-certificates" onclick="goToElement('Courses & Certificates')">Courses & Certificates</li>
+            <li class="line-of-options"></li>
+            <li id="go-to-courses-certificates" onclick="goToElement('My Projects')">My Projects</li>
+            <li class="line-of-options"></li>
+        </ul>
+    </div>
+
+    <!-- Introduction -->
+    <div id="cv-introduction">
+        <div id="identity-card">
+            <div id="cv-name">
+                <h1>MIHAI-SORIN NETEJORU</h1>
+                <h3 style="color:black;">Web Content Developer - SC Flanco RETAIL SA</h3>
+            </div>
+
+            <div id="sectioned-card"></div>
+
+            <div id="contact-details">
+                <p><span>Email:</span> netejoru.mihaisorin@yahoo.com</p>
+                <p><span>Phone:</span> +40729.425.012</p>
+                <p><span>Linkedin:</span> <a href="https://www.linkedin.com/in/sorin-netejoru-4973a120a/" target="_blank">https://www.linkedin.com/in/sorin-netejoru-4973a120a/</a></p>
+
+            </div>
+            
+        </div>
+
+        <div id="about-me">
+            <h2>About me</h2>
+            <div id="sectioned-about-me"></div>
+
+            <div id="container-description">
+                <div id="photo"><img src="Style/Images/myImage.jpg" alt="myImage"></div>
+                <div id="description">I'm a proactive, hard-working and motivated person with good communication skills. I'm sociable and I like being part of a
+                    team. Also, I'm really passionate about web development and I'm eager to learn new things. I'm currently studying
+                    management informatics at Romanian-American University.<br><br>
+                    I aspire to become a Front-End Developer and I would like to have the opportunity to work in an environment that helps me to
+                    evolve both personally and professionally.<br><br>
+                    I'm looking for an internship or a junior position job.<br><br>
+                    Check out my portfolio: <a href="https://github.com/Nacho404/Portofolio.git" target="_blank">https://github.com/Nacho404/Portofolio.git</a></div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!-- Professional Experience -->
+    <div id="professional-experience">
+        <h2>Professional experience</h2>
+        <div id="sectioned-professional-experience"></div>
+
+        <div id="container">
+            <div id="intro-job">
+                <p>
+                    <span id="start-work-job1">
+                        <span>July</span> 
+                        <span><strong>2021</strong></span>
+                    </span> - 
+                    <span id="end-work-job1"><strong>Present</strong></span><br>
+
+                    <span id="total-time-worked-job1" style="color: gray;">MONTHS</span>
+                </p>
+                <img src="Style/Images/flancoLogo.jpg" alt="Flanco Logo">
+            </div>
+
+            <div id="description-job">
+                <p style="margin-bottom: 0px; font-weight: bold; font-size: 2rem;">Web Content Developer - SC Flanco RETAIL SA</p>
+                <p style="margin: 0px; font-weight: lighter; color: gray;">Bucharest | Internet / e-Commerce | Commerce / Retail</p><br>
+                <p>- Technical documentation of products;<br>
+                    - Taking over the information related to the products we sell from the websites of similar
+                    manufacturers/suppliers/stores (outside Romania) and introducing them in a web interface;<br>
+                    - Checking the correctness of the information collected online for the product in the documentation;<br>
+                    - Adding technical information and photos according to the template on each category;<br>
+                    - Punctual verification of each documented product, after documentation.<br>
+                </p><br>
+                <h3 style="margin: 0px;">Acquired skills and knowledge:</h3>
+                <p style="display: flex; flex-wrap: wrap;">
+                    <span id="skill1-job" style="background-color: #0033cc;">HTML & CSS</span>
+                    <span id="skill2-job" style="background-color: #0066ff;">GIMP</span>
+                    <span id="skill3-job" style="background-color: #0066ff;">Magento</span>
+                    <span id="skill4-job" style="background-color: #33cccc;">Microsoft Office</span>
+                
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div id="container">
+            <div id="intro-job">
+                <p>
+                    <span id="start-work-job2">
+                        <span>November</span> 
+                        <span><strong>2020</strong></span>
+                    </span> - 
+                    <span id="end-work-job2">
+                        <span>July</span> 
+                        <span><strong>2021</strong></span>
+                    </span><br>
+
+                    <span id="total-time-worked-job2" style="color: gray;">MONTHS</span>
+                </p>
+                <img src="Style/Images/lidlLogo.jpg" alt="Flanco Logo"> 
+            </div>
+
+            <div id="description-job">
+                <p style="margin-bottom: 0px; font-weight: bold; font-size: 2rem;">Seller - Lidl S.R.L</p>
+                <p style="margin: 0px; font-weight: lighter; color: gray;">Bucharest | Sales | Commerce / Retail</p><br>
+                <p>I chose to work in this field because I like to work with people but not only, I like to discover characteristically
+                    customers, to understand what they think and what they want from a manufacturer. At the same time, this job
+                    offers me the opportunity to develop personally.                    
+                </p><br>
+                <h3 style="margin: 0px;">Acquired skills and knowledge:</h3>
+                <p style="display: flex; flex-wrap: wrap;">
+                    <span id="skill1-job" style="background-color: #0033cc;">Efficiency</span>
+                    <span id="skill2-job" style="background-color: #0066ff;">Teamwork</span>
+                    <span id="skill3-job" style="background-color: #0066ff;">Time management</span>
+                    <span id="skill4-job" style="background-color: #33cccc;">Calm and patience in working with people</span>
+                
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Education -->
+    <div id="education">
+        <h2>Education</h2>
+        <div id="sectioned-education"></div>
+
+        <div id="container-education">
+            <div id="intro-education">
+                <p style="margin-bottom: 3px;">July <strong>2020</strong> - <strong>Present</strong></p>
+                <p style="margin-top: 0px; font-size: small; color: gray;"><em>Estimation ending - July 2023</em></p>
+                <img src="Style/Images/romanoAmericanaLogo.jpg" alt="University Logo">
+
+            </div>
+
+            <div id="description-education">
+                <p style="margin-bottom: 0px; font-weight: bold; font-size: 2rem;">Romanian-American University</p>
+                <p style="margin: 0px; font-weight: lighter; color: gray;">Computer Science for Business Management / Specialization of Computer Science for Economics</p>
+                <p id="add-class-paragraph" style="margin-top: 15px;">
+                    Main Courses:<br>
+                    - MICROECONOMICS ( Acquisition of the basic concepts of economic science and the fundamentals of modern economic thinking.)<br>
+                    - ALGORITHMS AND DATA STRUCTURES ( Learning the fundamentals of programming in general, and structured programming in particular. Developing an algorithmic thinking. Learning the concepts related to algorithms and algorithms representation. Organization of data, data structures.)<br>
+                    - MATEMATICS FOR ECONOMICS<br>
+                    - FUNDAMENTALS OF ACCOUNTING ( Learning the basics of accounting theory, principles and tehniques of organizing and functioning of a company )<br>
+                    - ECONOMIC INFORMATICS<br>
+                    - COMPUTER ARCHITECTURE AND OPERATING SYSTEMS ( Acquisition of basic concepts regarding the construction, functioning and operation of personal computers. To this purpose, I learned and compare the constructive and functional principles of PCs and the fundamental notions of windows, solaris, linux operating systems, in the different variants and versions available on the market. I develop capacity to analyze and synthetize through the elaboration of projects provided in the list of individual works of the discipline. )<br>
+                    - ENGLISH AND COMMUNICATION TECHNIQUES I<br>
+                    - MACROECONOMICS <br>
+                    - FINANCE <br>
+                    - OBJECT ORIENTED PROGRAMMING ( Acquiring the fundamentals of the programming activity based on objects oriented paradigm. Acquiring the concepts regarding objects, classes and their characteristics. )<br>
+                    - ALGORITHMS AND PROGRAMMING TECHNIQUES ( I develop the algorithmic thinking, to gain the ability to choose the appropriate data structures, to design and implement efficient algorithms and to use appropriate programming methods to solve different classes of problems. Programming language: C++ )<br>
+                    - LAW <br>
+                    - ENGLISH AND COMMUNICATION TECHNIQUES II <br>
+                    - SOFTWARE PROGRAMMING I ( Knowledge of C# programming possibilities, application software development. Elements of C# language; constants, variables, identifiers, memory classes, representations, symbolic constants, avoidance sequences. Operators, expressions, standard C# libraries. )<br>
+                    - DATABASES I ( I studyed and acquisition of methods, techniques and instruments used in the analysis, design, implementation and operation of database computer applications in different economic-social fields. Acquisition and use of the relational access dbms. )<br>
+                    - STATISTICS<br>
+                    - FUNDAMENTALS OF MARKETING<br>
+                    - SELLING TECHNIQUES<br>
+                    - MANAGEMENT <br>
+                    - ENGLISH AND COMMPERCIAL CORRESPONDENCE I<br>
+                    - WEB APPLICATIONS PROGRAMMING ( I learned for the design and creation of web pages as well as their integration in a dynamic client-server architecture. Basic web concepts, html language, as the basic language used for building web pages; use of scripting technique to obtain video/audio effects. tehnologyes- Python, JavaScript, HTML, CSS, Github, Rest API )<br>
+                    
+                </p>
+                <span id="button-show-more-less" onclick="hiddenOrReveal()">...<u>see more</u></span>
+                <p id="paragraph-mobile-screen">
+                    Main Courses:<br>
+                    - ALGORITHMS AND DATA STRUCTURES<br>
+                    - ECONOMIC INFORMATICS<br>
+                    - COMPUTER ARCHITECTURE AND OPERATING SYSTEMS<br>
+                    - OBJECT ORIENTED PROGRAMMING<br>
+                    - ALGORITHMS AND PROGRAMMING TECHNIQUES (C++)<br>
+                    - SOFTWARE PROGRAMMING I (C#)<br>
+                    - DATABASES I<br>
+                    - SELLING TECHNIQUES (Acces database)<br>
+                    - WEB APPLICATIONS PROGRAMMING (Python, JavaScript, HTML, CSS, Github, Rest API)<br>
+                </p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div id="container-education">
+            <div id="intro-education">
+                <p style="margin: 0px;">July <strong>2013</strong> - July <strong>2017</strong></p>
+                <img src="Style/Images/octavOnicescuLogo.jpg" alt="Octav Onicescu Logo">
+
+            </div>
+
+            <div id="description-education">
+                <p style="margin: 0px; font-weight: bold; font-size: 2rem;">National College "Octav Onicescu"</p>
+                <p style="margin: 0px; font-weight: lighter; color: gray;">High School / Vocational school: Mathematics - Informatics</p>
+                <p style="margin-top: 15px;">High school helped me realize what direction I want to go in life. At the end of it, I obtained the "certificate of professional competencies" based on the evaluated knowledge.<br><br>
+                    The main courses studied are: Mathematics, Computer Science (C ++), Biology, Physics, Chemistry.
+                </p>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- Courses and Certificates -->
+    <div id="courses-certificates">
+        <h2>Courses & Certificates</h2>
+        <div id="sectioned-courses-certificates"></div>
+
+        <div id="container-courses-certificates">
+            <div id="intro-courses-certificates">
+                <p>February <strong>2019</strong> - June <strong>2019</strong></p>
+                <img src="Style/Images/telecomAcademyLogo.jpg" alt="Telecom Academy Logo">
+
+            </div>
+
+            <div id="description-courses-certificates">
+                <p style="margin-bottom: 0px; font-weight: bold; font-size: 2rem;">Telecom Academy</p>
+                <p style="margin: 0px; font-weight: lighter; color: gray;">JavaScript 1 - Fundamentals</p>
+                <p style="margin-top: 15px;">During this course I developed and improved the knowledge I had (Javascript, HTML, CSS), I encountered new problems, more or less complicated, I understood the importance of programs/technologies. In addition to all this, I gained more experience and this determined me to continue exploring the field in order to acquire more skills.<br><br>
+
+                    - HTML5 & CSS3 (Content creation and stylization)<br>
+                    - SASS<br>
+                    - Bootstrap<br>
+                    - Javascript<br>
+                    - Using the standard that defines the syntax in JS (ES6)<br>
+                    - Web API<br>
+                    - jQuery<br>
+                    - GIT<br>
+                </p>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div id="container-courses-certificates">
+            <div id="intro-courses-certificates">
+                <p>May <strong>2017</strong></p>
+                <img src="Style/Images/educationMinisteryLogo.jpg" alt="Education Ministery">
+
+            </div>
+
+            <div id="description-courses-certificates">
+                <p style="margin-bottom: 0px; font-weight: bold; font-size: 2rem;">Certificate of professional competence</p>
+                <p style="margin-top: 15px;">Following the acquisition of the certificate of professional competences, I accumulated the following skills:<br><br>
+
+                    - Management of WEB sites, computer operating systems<br>
+                    - Providing data processing facilities, including support services<br>
+                </p>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- My project GitHub -->
+    <div class="my-projects-github">
+        <h2 style="text-align: initial;">My Projects</h2>
+        <div id="sectioned-projects-github"></div>
+
+        <!-- Multi Pages Project -->
+        <div class="container-projects-github">
+            <p style="font-weight: bold; font-size: 2rem;">Multi-Web pages Project</p>
+            <p style="font-weight: lighter; color: gray;">This project contain:<br>
+                - Blog without Css<br>
+                - Blog with CSS<br>
+                - Blog with CSS and JS<br>
+                - Calculator<br>
+                - Form<br>
+                - Calendar<br>
+                - Inbox<br>
+            </p>
+
+            <section>
+                <a href="https://github.com/Nacho404/Portofolio/tree/main/Project%20-%20Blog%2C%20Clock%2C%20Calculator%2C%20Form%2C%20Calendar%2C%20Inbox" target="_blank"><img src="Style/Images/multiPagesProject.jpg" class="img-responsive" alt="Multi Pages Project"></a>
+                <a class="go-to-link" href="https://github.com/Nacho404/Portofolio/tree/main/Project%20-%20Blog%2C%20Clock%2C%20Calculator%2C%20Form%2C%20Calendar%2C%20Inbox" target="_blank">Go to GitHub Code</a>
+            </section>
+
+        </div>
+
+        <hr>
+
+        <!-- Online Store Project -->
+        <div class="container-projects-github">
+            <p style="font-weight: bold; font-size: 2rem;">Online Store Project</p>
+            <p style="font-weight: lighter; color: gray;">
+                - you can see the products<br>
+                - sort the products<br>
+                - add new products<br>
+                - you can use the cart shop<br>
+            </p>
+            <section>
+               
+                <a href="https://github.com/Nacho404/Portofolio/tree/main/Project%20-%20Online%20Store" target="_blank"><img src="Style/Images/onlineStoreProject.jpg" class="img-responsive" alt="Online Store Project"></a>
+                <a class="go-to-link" href="https://github.com/Nacho404/Portofolio/tree/main/Project%20-%20Online%20Store" target="_blank">Go to GitHub Code</a>
+            </section>
+
+        </div>
+
+        <hr>
+
+        <!-- Todo list Project -->
+        <div class="container-projects-github">
+            <p style="font-weight: bold; font-size: 2rem;">To-do list Project</p>
+            <section>
+                <a href="https://github.com/Nacho404/Portofolio/tree/main/Project%20-%20Todo%20List" target="_blank"><img src="Style/Images/toDoListProject.jpg" class="img-responsive" alt="Todo list Project"></a>
+                <a class="go-to-link" href="https://github.com/Nacho404/Portofolio/tree/main/Project%20-%20Todo%20List" target="_blank">Go to GitHub Code</a>
+            </section>
+
+        </div>
+
+        <hr>
+
+        <!-- Movie Tracker Project -->
+        <div class="container-projects-github">
+            <p style="font-weight: bold; font-size: 2rem;">Movie Tracker Project</p>
+            <p style="font-weight: lighter; color: gray;">In this project you can see the information about a movie or you can add one.</p>
+
+            <section>
+                <a href="https://github.com/Nacho404/Portofolio/tree/main/Project%20-%20Movie%20Tracker" target="_blank"><img src="Style/Images/movieTrackerProject.jpg" class="img-responsive" alt="Movie Tracker Project"></a>
+                <a class="go-to-link" href="https://github.com/Nacho404/Portofolio/tree/main/Project%20-%20Movie%20Tracker" target="_blank">Go to GitHub Code</a>
+            </section>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <h2 style="font-family: 'Times New Roman', Times, serif;">Mihai-Sorin Netejoru</h2>
+        <section class="footer-contact-details">
+            <p>netejoru.mihaisorin@yahoo.com</p>
+            <div></div>
+            <p>+40729.425.012</p>
+            <div></div>
+            <p><a href="https://www.linkedin.com/in/sorin-netejoru-4973a120a/" target="_blank">LinkedIn profile</a></p>
+        </section>
+
+        <div class="footer-navigation">
+            <p onclick="goToElement('Introduction')">Introduction</p>
+            <section></section>
+            <p onclick="goToElement('Professional experience')">Professional Experience</p>
+            <section></section>
+            <p onclick="goToElement('Education')">Education</p>
+            <section></section>
+            <p onclick="goToElement('Courses & Certificates')">Courses and Certificates</p>
+            <section></section>
+            <p onclick="goToElement('My Projects')">My Projects</p>
+        </div>
+
+        <p style="font-size: 1rem;">Created by Mihai-Sorin Netejoru © 2022</p>
+    </footer>
+
+</body>
+</html>

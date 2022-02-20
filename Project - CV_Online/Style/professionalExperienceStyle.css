@@ -1,0 +1,44 @@
+/* Professional experience */
+
+#professional-experience {
+    border-radius: 20px 20px;
+    padding: 10px;
+    margin: 15px;
+    background-color: rgba(255,255,255, 0.9);
+    box-shadow: 5px 5px 15px#4a4a4b;
+
+}
+
+#intro-job, #description-job {
+    margin: 10px;
+    font-weight: lighter;
+}
+
+#professional-experience #container {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#professional-experience h2 {
+    margin-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 51, 204);
+}
+
+
+#sectioned-professional-experience {
+    width: auto;
+    height: 2px;
+    background: linear-gradient(0.25turn, #97b1ff, #0033cc, #97b1ff);
+    border-radius: 20px;
+}
+
+#skill1-job, #skill2-job, #skill3-job, #skill4-job{
+    padding: 10px;
+    background-color: #0033cc;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px 5px;
+    margin:5px;
+}
+
